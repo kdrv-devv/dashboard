@@ -1,0 +1,163 @@
+.dashboard-left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 10px 10px;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 30px 0 50px 0 rgba(47, 102, 255, 0.1);
+}
+
+.left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  border-bottom: 1px solid #435279ce;
+  padding-bottom: 60px;
+}
+
+.hour-studio {
+  border-radius: 20px;
+  height: 97px;
+  width: 98%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(83, 59, 226, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  gap: 18px;
+  .hour-left {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #6461f2;
+  }
+
+  .hour-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h5 {
+      font-weight: 700;
+      font-size: 20px;
+      color: #435179;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      color: #747c93;
+    }
+  }
+  button {
+    margin-left: 50px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #6461f2;
+  }
+}
+
+.dashboard-btn {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 98%;
+  height: 76px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  gap: 18px;
+  background-color: #6461f2;
+  h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+.orders,
+.payout,
+.earning,
+.analystic {
+  width: 80%;
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px;
+  h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #435179;
+  }
+}
+
+// dashboard-left -bottom start
+
+.left-bottom {
+  margin-top: 42px;
+  width: 95%;
+  border-radius: 15px 15px 0 0;
+  background-color: #e4e8f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #435179;
+  }
+  .today {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+      font-weight: 700;
+      font-size: 16px;
+      color: #747c93;
+    }
+    button {
+      background-color: #fff;
+      width: 24px;
+      height: 24px;
+      font-size: 11px;
+      color: #6461f2;
+      padding: 3px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .radios {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .radio-blur {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #747c93;
+        opacity: 0.5;
+      }
+    }
+    .simple-checkbox {
+      display: flex;
+      align-items: start;
+      gap: 16px;
+      input {
+        border: 1px solid #435179;
+        border-radius: 7px;
+      }
+      label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #435179;
+      }
+    }
+  }
+}
